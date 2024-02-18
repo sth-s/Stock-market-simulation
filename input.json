@@ -1,0 +1,62 @@
+{
+  "Share_Info": [
+    {
+      "name": "Google",
+      "variance": 0.31415927,
+      "price_change": -4.27,
+      "expected_return": 0.10,
+      "price": 10.34
+    },
+    {
+      "name": "Amazon",
+      "variance": 0.15707963,
+      "price_change": 2.75,
+      "expected_return": 0.05,
+      "price": 1.92
+    },
+    {
+      "name": "Tesla",
+      "variance": 0.62831853,
+      "price_change": 0.23,
+      "expected_return": 0.2,
+      "price": 5.23
+    },
+    {
+      "name": "Ferrero",
+      "variance": 0.10471975,
+      "price_change": 5.02,
+      "expected_return": 0.25,
+      "price": 4.01
+    }
+  ],
+  "Wallets_Info": [
+    {
+      "name": "Wallet 1",
+      "fund": 1000000,
+      "shares": ["Google", "Amazon", "Tesla", "Ferrero"],
+      "strategy_id": 1
+    },
+    {
+      "name": "Wallet 2",
+      "fund": 2000000,
+      "shares": ["Google", "Tesla"],
+      "strategy_id": 2
+    }
+  ],
+  "Strategies_Info": [
+    {
+      "id": 1,
+      "name": "equable",
+      "shares_fractions": [0.25, 0.25, 0.5],
+      "risk_boundaries": [0.15, 0.4],
+      "deviation_cf": 0.1
+    },
+    {
+      "id": 2,
+      "name": "high_risk",
+      "shares_fractions": [0.1, 0.1, 0.8],
+      "risk_boundaries": [0.15, 0.4],
+      "deviation_cf": 0.05
+    }
+  ]
+}

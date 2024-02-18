@@ -1,0 +1,116 @@
+{
+    "Price change": {
+        "Amazon": [
+            1.92,
+            1.92,
+            2.06,
+            2.09,
+            2.17,
+            2.21,
+            2.24,
+            2.31,
+            2.28,
+            2.3,
+            2.3
+        ],
+        "Ferrero": [
+            4.01,
+            4.01,
+            3.95,
+            3.95,
+            4.13,
+            4.0,
+            3.91,
+            3.87,
+            3.9,
+            3.85,
+            3.93
+        ],
+        "Google": [
+            10.34,
+            10.34,
+            10.65,
+            11.08,
+            10.51,
+            9.44,
+            9.97,
+            9.6,
+            9.67,
+            8.81,
+            8.76
+        ],
+        "Tesla": [
+            5.23,
+            10.46,
+            9.3,
+            10.38,
+            10.78,
+            11.37,
+            10.9,
+            8.48,
+            8.03,
+            7.66,
+            7.93
+        ]
+    },
+    "Wallets Summary": {
+        "Wallet 1": {
+            "Income": {
+                "Current free money": 2.54,
+                "Current fund": 1263186.2,
+                "Income": 263186.2
+            },
+            "Shares": {
+                "Amazon": {
+                    "Invested in share": 154469.25,
+                    "Price": 2.37,
+                    "Price difference": 0.45
+                },
+                "Ferrero": {
+                    "Invested in share": 245325.47,
+                    "Price": 3.94,
+                    "Price difference": -0.07
+                },
+                "Google": {
+                    "Invested in share": 110613.81,
+                    "Price": 9.15,
+                    "Price difference": -1.19
+                },
+                "Non invested": {
+                    "Invested in share": 2.54,
+                    "Price": 0,
+                    "Price difference": 0
+                },
+                "Tesla": {
+                    "Invested in share": 752775.13,
+                    "Price": 7.87,
+                    "Price difference": 2.64
+                }
+            }
+        },
+        "Wallet 2": {
+            "Income": {
+                "Current free money": 199811.38,
+                "Current fund": 2785845.19,
+                "Income": 785845.19
+            },
+            "Shares": {
+                "Google": {
+                    "Invested in share": 177069.94,
+                    "Price": 9.15,
+                    "Price difference": -1.19
+                },
+                "Non invested": {
+                    "Invested in share": 199811.38,
+                    "Price": 0,
+                    "Price difference": 0
+                },
+                "Tesla": {
+                    "Invested in share": 2408963.87,
+                    "Price": 7.87,
+                    "Price difference": 2.64
+                }
+            }
+        }
+    }
+}
